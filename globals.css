@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation: backgroundChange 10s infinite; /* Animation for changing background */
+  font-size: 18px; /* Increased font size */
+}
+
+@keyframes backgroundChange {
+  0% {
+      background-color: #1E3A8A; 
+  }
+  25% {
+      background-color: #00e1ff; 
+  }
+  50% {
+      background-color: #00ff9d; 
+  }
+  75% {
+      background-color: #c300ff; 
+  }
+  100% {
+      background-color: #1E3A8A; 
+  }
+}
